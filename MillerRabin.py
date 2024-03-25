@@ -9,7 +9,6 @@ def modPower(a,k,n):
             res = res * a % n
         a = a * a % n
         k >>= 1
-    
     return res
 
 # n-1 = 2^s.d -> (s,d)
@@ -24,15 +23,11 @@ def Decompose(n):
 
 def Witness(a, n):
     s,d = Decompose(n)
-    x = modPower(a,d,n)
-    # print("s,d,a,x=",s,d,a,x)
+    x = modPower(a,d,n)                 # print("s,d,a,x=",s,d,a,x)
 
-    # 1 <= i <= s
     for i in range(1,s+1):
-
         # Compute y ~ x^2 (mod n)
-        y = x * x % n
-        # print("loop i:",i,"-> y,x=",y,x)
+        y = x * x % n                   # print("loop i:",i,"-> y,x=",y,x)
         if y == 1 and x not in [1,n-1]:
             return False
         x = y
@@ -41,22 +36,22 @@ def Witness(a, n):
 
     return True
 
+
 def MillerRabin(n, k):
-    # Kiểm tra với các giá trị nhỏ
+    # Check n is small prime
     if n == 2 or n == 3 or n == 5 or n == 7: 
         return True
     if n < 11: 
         return False
 
+    # Check n is even
     if n % 2 == 0: return False
-
     
-    # Lặp lại bước kiểm tra với a ngẫu nhiên
+    # Repeat Witness() with a random base 
     for i in range(k):
 
-        # Pick a random number in [2..n-1] 
+        # Pick a random number in [2..n-2] 
         a = random.randint(2, n - 2)
-
         if not Witness(a,n):
             return False
     
