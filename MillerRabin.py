@@ -49,7 +49,6 @@ def MillerRabin(n, k):
     
     # Repeat Witness() with a random base 
     for i in range(k):
-
         # Pick a random number in [2..n-2] 
         a = random.randint(2, n - 2)
         if not Witness(a,n):
