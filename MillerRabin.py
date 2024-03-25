@@ -33,7 +33,6 @@ def Witness(a, n):
         x = y
     
     if x != 1: return False
-
     return True
 
 
@@ -53,7 +52,7 @@ def MillerRabin(n, k):
         a = random.randint(2, n - 2)
         if not Witness(a,n):
             return False
-    
+        
     return True
 
 
