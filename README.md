@@ -19,11 +19,11 @@ Determine whether a given positive integer is a prime number.
 ## Team members
 | No. | Name             | Student ID | Email                          | Contact                                                                                                                                                                                                                     |
 | :-: | ---------------- | :--------: | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  1  | Nguyễn Minh Anh |  2370644   | nguyenminhanh56hv@gmail.com          | [<img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" align="left" width=20px/>][fb1] [<img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" align="left" width=20px style="margin-left:5px" />][git1] |
-|  2  | Phạm Nhật Minh  |  2370503   | nminh1292001@gmail.com   | [<img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" align="left" width=20px/>][fb2] |
-|  3  | Phan Văn Sỹ     |  2370648  | sy.phan.cse@gmail.com | [<img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" align="left" width=20px/>][fb3]  |
-|  4  | Lê Tiến Lộc     |  2370646   | letienloc2001@gmail.com   | [<img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" align="left" width=20px/>][fb4]  |
-|  5  | Hoàng Nhật Quang   |  2370696   | hnquang.cs@gmail.com      | [<img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" align="left" width=20px/>][fb5]  |
+|  1  | Nguyễn Minh Anh  |  2370644   | nguyenminhanh56hv@gmail.com          | [<img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" align="left" width=20px/>][fb1] [<img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" align="left" width=20px style="margin-left:5px" />][git1] |
+|  2  | Phạm Nhật Minh   |  2370503   | nminh1292001@gmail.com   | [<img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" align="left" width=20px/>][fb2] |
+|  3  | Phan Văn Sỹ      |  2370648   | sy.phan.cse@gmail.com | [<img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" align="left" width=20px/>][fb3]  |
+|  4  | Lê Tiến Lộc      |  2370646   | letienloc2001@gmail.com   | [<img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" align="left" width=20px/>][fb4] |
+|  5  | Hoàng Nhật Quang |  2370696   | hnquang.cs@gmail.com      | [<img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" align="left" width=20px/>][fb5] |
 
 
 ## Requirements
